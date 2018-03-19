@@ -1,0 +1,909 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700);
+
+body{
+	color: #000000;
+	margin:0;
+	font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
+	/*background-image: url(images/background4.jpg);*/
+	background-color: #8e9fbc;
+}
+div.backgroundpic{
+    -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+	z-index:-1;
+	position:absolute;
+	position: fixed;
+}
+div.menupic{
+	position:absolute;
+	position: fixed;
+}
+div.newnavbar{
+	position: fixed;
+	background-color: #dde5ed;
+	top:0px;
+	width:100%;
+	max-height: 44px;
+	z-index: 10;
+}
+img.topnavbarkulogo{
+	height: 88px;
+	margin-left:-50px;
+	float:left;
+	z-index: 100;
+	position: relative;
+}
+img.topnavbarkulogobackground{
+	float:left;
+	margin-left: 96.75px;
+}
+ul.topnavbarlist{
+	margin:0px;
+	margin-left: 140.75px;
+	padding:0px;
+	
+}
+input.topnavbarlistitembutton{
+	background-color: #dde5ed;
+	border:none;
+	padding:0px;
+	height: 44px;
+	color:#003459;
+	font-size:14px;
+	font-weight: 500;
+}
+#topnavbarlistitemlistsports{
+	background-color: #e8000d;
+	padding:0px;
+}
+li.topnavbarlistitem1	 {
+	display:inline-block;
+	height:44px;
+	line-height:44px;
+	padding-left:10px;
+	padding-right: 10px;
+}
+li.topnavbarlistitem2	 {
+	height:44px;
+	display:inline-block;
+	line-height:44px;
+	padding-left:15px;
+	padding-right: 15px;
+}
+#topnavbarlistitemlistsportsid{
+	display: none;
+	color:white;
+	position: absolute;
+}
+div.newnavbar2{
+	position: fixed;
+	top:44px;
+	width:100%;
+	max-height: 44px;
+	background-color: #003459;
+}
+div.newnavbar2li1{
+
+	display:inline-block;
+	height:44px;
+	line-height:44px;
+	padding-left:10px;
+	padding-right: 10px;
+}
+#test1{
+}
+img.backgroundpicii{
+	width:100%;
+	filter: grayscale(50%);
+	opacity:0.5;
+}
+img.advertisementpicimg{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom:20px;
+	left: 50%;
+	right: 50%;
+	padding-top:100px;
+}
+img.advertisementpicimgbot{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom:20px;
+	margin-top:20px;
+	left: 50%;
+	right: 50%;
+}
+div.menuseperator{
+	display:block;
+	padding-top:110px;
+}
+div.contentcontainertopbackground{
+	background-color: #0051ba;
+	margin:0px;
+	margin-top:10px;
+}
+div.contentcontainertop{
+	margin:auto;
+	width:1340px;
+	max-width:100%;
+}
+h1.ticketheader{
+	background-color:red;
+	color:white;
+	margin:10px;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-left:5px;
+	padding-right:5px;
+	width:278px;
+}
+div.contentcontainer{
+	margin:auto;
+	width:1340px;
+	max-width:100%;
+	margin-top: 0px;
+	margin-bottom:50px;
+	display: block;
+	height:100%;
+}
+p.endp{
+	clear:both;
+	display:block;
+}
+div.contentcontainerright{
+	width:16.42%;
+	float:right;
+	/*background-color: coral;*/
+	margin-left: 0%;
+}
+div.contentcontainerrightphone{
+	background-color:#e9ebee;
+	margin-top:0px;
+	margin-left: 20px;
+	margin-bottom:20px;
+	border-top: 1px solid #424242;
+	border-left: 1px solid  #424242;
+	border-right: 1px solid  #424242;
+	border-bottom: 1px solid #424242;
+	border-radius:2px;
+	box-shadow: 0 0 4px #424242;
+}
+div.boxofficediv{
+	background-color: #971b2f;
+	padding:0px;
+	height:45px;
+}
+span.boxofficeheader{
+	color:#FFFFFF;
+	margin-left: 12px;
+	line-height: 44px;
+}
+ul.boxofficelist{
+	list-style-type:none;
+}
+div.groupticketsdivouter{
+	background-color:#e9ebee;
+	margin-top:0px;
+	margin-left: 20px;
+	margin-bottom:20px;
+	border-top: 1px solid #424242;
+	border-left: 1px solid  #424242;
+	border-right: 1px solid  #424242;
+	border-bottom: 1px solid #424242;
+	border-radius:2px;
+	box-shadow: 0 0 4px #424242;
+
+}
+div.groupticketsdiv{
+	background-color: #971b2f;
+	padding:0px;
+	height:45px;
+}
+ul.groupticketlist{
+	list-style-type:none;
+}
+span.groupticketsheader{
+	color:#FFFFFF;
+	margin-left: 12px;
+	line-height: 44px;
+}
+/*START SPORT PAGE*/
+div.contentcontainereventinformation{
+	background-color:#e9ebee;
+	margin-left:20px;
+	margin-top:0px;
+	margin-bottom:20px;
+	box-shadow: 0 0 4px #424242;
+	border-radius:2px;*/
+	/*border-top: 1px solid #424242;
+	border-left: 1px solid  #424242;
+	border-right: 1px solid  #424242;
+	border-bottom: 1px solid #424242;*/
+
+	padding:0px;
+}
+div.eventinformationheaderclass{
+	background-color: #971b2f; 
+	border-bottom: 1px solid #000000;
+	color: white;
+	border-top-right-radius: 2px;
+	border-top-left-radius: 2px;
+	/*border-radius-top:5px;
+	border-radius-left:5px;*/
+}
+span.eventinformationlistheader{
+	height:44px;
+	line-height:44px;
+	margin: 0px;
+	margin-left:12px;
+}
+img.eventinformationlogo{	
+	float: right;
+	padding-top: 10px;
+	padding-bottom:5px;
+	padding-right:8px;
+	max-height: 30px; /*logo 1*/
+	padding-top: 7px; /*logo 1*/
+	/*max-height: 25px; logo 2*/
+	/*padding-top: 10px; /*logo 2*/
+}
+a.eventinformationlinks{
+	color: #003459;
+  	text-decoration: none;
+  	width:100%;
+}
+
+ul.eventinformationlist{
+	list-style-type: none;
+	padding:0px;
+	margin:0px;
+}
+div.eventinformationlistitemdiv{
+  	padding-left:16px;
+}
+div.eventinformationlistiitemmage1{
+	float:left;
+	width:20%;
+}
+img.footballicon1{
+	max-width: 20px;
+	float:left;
+	padding-top: 10px;
+	padding-bottom:10px;
+}
+span.eventinformationlistitemparagraph{
+	float:right;
+	width:80%;
+	padding-top: 10px;
+	padding-bottom:10px;
+}
+li.eventinformationlistafter1{
+	height:40px;
+	font-size:13px;
+	width:100%;
+	display:block;
+}
+li.eventinformationlistafter{
+	height:40px;
+	font-size:13px;
+	width:100%;
+}
+li.eventinformationlistafter:before{
+	content:'';
+	display:block;
+	width:200px;
+	height:0px;
+	position:absolute;
+	border-top:1px solid #787878;
+}
+/*END SPORT PAGE*/
+div.grouptickets{
+	background-color:#e9ebee;
+}
+div.contentcontainerrightaccessible{
+	background-color:#e9ebee;
+	margin:10px;
+	margin-top:-9px;
+	margin-bottom:20px;
+	border-top: 1px solid #DCDCDC;
+	border-left: 1px solid  #D3D3D3;
+	border-right: 1px solid  #D3D3D3;
+	border-bottom: 1px solid #C8C8C8;
+	/*border-radius:5px;*/
+	padding:5px;
+}
+
+div.specialseatingdivouter{
+	background-color:#e9ebee;
+	margin-top:0px;
+	margin-left: 20px;
+	margin-bottom:20px;
+	border-top: 1px solid #424242;
+	border-left: 1px solid  #424242;
+	border-right: 1px solid  #424242;
+	border-bottom: 1px solid #424242;
+	border-radius:2px;
+	box-shadow: 0 0 4px #424242;
+
+}
+div.specialseatingheaderdiv{
+	background-color: #971b2f;
+	padding:0px;
+	height:45px;
+}
+ul.specialseatinglist{
+	list-style-type:none;
+}
+span.specialseatingheader{
+	color:#FFFFFF;
+	margin-left: 12px;
+	line-height: 44px;
+}
+h3.accessibleheader{
+	text-align:center;
+	border-bottom:1px solid #707070
+}
+
+/*RIGHT BELOW (right=left)-------------------------------*/
+
+
+div.contentcontainercenterandleft{
+	width:83.58%;
+	float:left;
+	/*background-color: coral;*/
+}
+div.contentcontainercenter{
+	width:80.36%;
+	float:right;
+	background-color: #dde5ed;
+	border-radius:3px;
+	margin-bottom: 50px;
+}
+div.contentcontainertopnav{
+	background-color: #971b2f;
+	padding-bottom:0px;
+	margin-top:20px;
+	box-shadow: 0 0 2px #424242;
+	margin-right:20px;
+	margin-left: 20px;
+}
+ul.contentcontainertopnavlist{
+	list-style-type: none;
+	text-align: center;
+	margin:0px;
+	padding: 0px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+a.contentcontainertopnavlistlinks{
+	color: #dde5ed;
+	text-decoration: none;
+}
+span.contentcontainertopnavlistspan{
+	padding-right:10px;
+	padding-left: 10px;
+	padding-top:11px;
+	padding-bottom:10px;
+	font-weight: 500;
+	font-size:14px;}
+span.contentcontainertopnavlistspan:hover{
+	background-color: #f2a900;
+	color:#971b2f;
+}
+li.contentcontainertopnavlistitem{
+	display:inline;
+
+}
+div.contentcontainercenterarticle{
+	background-color:#e9ebee;
+	
+	border-top: 1px solid #424242;
+	border-left: 1px solid  #424242;
+	border-right: 1px solid  #424242;
+	border-bottom: 1px solid #424242;
+	/*border-radius:5px;*/
+	margin:20px;	
+	max-height: 359.3px;
+	border-radius:2px;
+	box-shadow: 0 0 4px #424242;
+}
+div.contentcontainercenterrow2{
+	overflow: hidden;
+	padding-top: 2px;
+}
+div.contentcontainercenterlocation{
+	background-color:#FFFFFF;
+	margin:0px;
+	/*border-top: 1px solid #424242;
+	border-left: 1px solid  #424242;
+	border-right: 1px solid  #424242;
+	border-bottom: 1px solid #424242;*/
+	border-radius:2px;
+	box-shadow: 0 0 2px #424242;
+	float:left;
+	width:61.5%;
+	margin-left:20px;
+	margin-bottom: 20px;
+}
+div.contentcontainercenterlocationheader{
+	/*background-color: #003459;*/
+	border-bottom: 1px solid #d7d2cb;
+	margin:0px;
+	margin:12px;
+	padding-bottom: 12px;
+}
+span.contentcontainercenterlocationspan{
+	color: #003459;
+	font-size: 18px;
+	font-weight:900;
+	vertical-align: middle;
+}
+div.locationcontent{
+	width:100%;
+}
+#locationparagraph{
+	text-align: justify;
+	padding-left:12px;
+	padding-right:16px;
+}
+div.locationparagraphp2{
+	float:left;
+	width:50%;
+	margin-bottom: 16px;
+}
+img.locationgooglemaps{
+	width:40%;
+	float:right;
+	margin-right: 16px;
+	margin-bottom: 16px;
+	/*border-top: 1px solid #424242;
+	border-left: 1px solid  #424242;
+	border-right: 1px solid  #424242;
+	border-bottom: 1px solid #424242;*/
+	border-radius:2px;
+	box-shadow: 0 0 4px #424242;
+}
+span.locationspan{
+	padding-left:16px;
+	line-height: 50px;
+	vertical-align: middle;
+}
+#locationparagraph{}
+
+/*p.locationheader{
+	border-bottom:1px solid #707070;
+}*/
+div.contentcontainercenterpremium{
+	background-color:#FFFFFF;
+	margin:0px;
+	/*border-top: 1px solid #424242;
+	border-left: 1px solid  #424242;
+	border-right: 1px solid  #424242;
+	border-bottom: 1px solid #424242;*/
+	border-radius:2px;
+	box-shadow: 0 0 4px #424242;
+	width:32.5%;
+	float:right;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	height:378.36px;
+}
+div.contentcontainercenterpremiumheader{
+	/*background-color: #003459;*/
+	height:50px;
+	margin-left: 12px;
+	margin-right:12px;
+	border-bottom: 1px solid #d7d2cb;
+}
+span.contentcontainercenterpremiumspan{
+	color: #003459;
+	line-height: 50px;
+	vertical-align: middle;
+	font-size: 18px;
+	font-weight:900;
+}
+div.contentcontainercenterpremiumparagraph{
+	padding-left:12px;
+	padding-right:12px;
+	text-align: justify;
+}
+div.contentcontainercenterrow4{
+	overflow: hidden;
+}
+div.contentcontainercenterstubhub{
+	background-color:#e9ebee;
+	margin:20px;
+	margin-right:0px;
+	margin-top:0px;
+	padding-top:0px;
+	/*border-top: 1px solid #424242;
+	border-left: 1px solid  #424242;
+	border-right: 1px solid  #424242;
+	border-bottom: 1px solid #424242;*/
+	border-radius:2px;
+	overflow: visible;
+	box-shadow: 0 0 4px #424242;
+	width: 47%;
+	float:left;
+	height:241px;
+
+}
+div.contentcontainercenterstubhubheader{
+	width:100%;
+	background-color: #003459;
+	height:50px;
+}
+span.contentcontainercenterstubhubspan{
+	color: #FFFFFF;
+	padding-left: 16px;
+	line-height: 50px;
+	vertical-align: middle;
+}
+/*p.stubhubheader{
+	border-bottom:1px solid #707070;
+}*/
+#stubhubparagraph{
+	text-align: justify;
+	padding-left:16px;
+	padding-right:16px;
+	padding-bottom: 5px;
+}
+div.contentcontainercenterjuniorjayhawks{
+	background-color:#e9ebee;
+	margin:20px;
+	margin-left:0px;
+	margin-top:0px;
+	padding-top:0px;
+	/*border-top: 1px solid #424242;
+	border-left: 1px solid  #424242;
+	border-right: 1px solid  #424242;
+	border-bottom: 1px solid #424242;*/
+	border-radius:2px;
+	box-shadow: 0 0 4px #424242;
+	width:47%;
+	float:right;
+}
+/*p.juniorjayhawksheader{
+	border-bottom:1px solid #707070;
+}*/
+div.contentcontainercenterjuniorjayhawksheader{
+	width:100%;
+	background-color: #003459;
+	height:50px;
+}
+span.contentcontainercenterjuniorjayhawksspan{
+	color: #FFFFFF;
+	padding-left: 16px;
+	line-height: 50px;
+	vertical-align: middle;
+}
+#juniorjayhawksparagraph{
+	text-align: justify;
+	padding-left:16px;
+	padding-right:16px;
+	padding-bottom: 5px;
+}
+
+.rotated-image {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+.rotated-image2 {
+	/*idk why is is required but it is required*/
+}
+div.contentcontainercenterbagpolicy{
+	background-color:#e9ebee;
+	margin:20px;
+	margin-top:0px;
+	padding-top:0px;
+	/*border-top: 1px solid #424242;
+	border-left: 1px solid  #424242;
+	border-right: 1px solid  #424242;
+	border-bottom: 1px solid #424242;*/
+	border-radius:2px;
+	box-shadow: 0 0 4px #424242;
+}
+/*p.bagpolicyheader{
+	border-bottom:1px solid #707070;
+}*/
+div.contentcontainercenterbagpolicyheader{
+	width:100%;
+	background-color: #003459;
+	height:50px;
+}
+span.contentcontainercenterbagpolicyspan{
+	color: #FFFFFF;
+	padding-left: 16px;
+	line-height: 50px;
+	vertical-align: middle;
+}
+#bagpolicyparagraph{
+	text-align: justify;
+	padding-left:16px;
+	padding-right:16px;
+	padding-bottom: 5px;
+}
+div.contentcontainercenterrow5{
+	overflow: hidden;
+}
+div.contentcontainercenterrow5leftandcenter{
+	overflow: hidden;
+	width:64.333%;
+	float:left;
+	margin-left: 20px;
+}
+div.contentcontainercentertailgating{
+	background-color:#e9ebee;
+	padding-top:0px;
+	/*border-top: 1px solid #424242;
+	border-left: 1px solid  #424242;
+	border-right: 1px solid  #424242;
+	border-bottom: 1px solid #424242;*/
+	border-radius:2px;
+	box-shadow: 0 0 4px #424242;
+	float:left;
+	width:47%;
+	height:241px;
+}
+/*p.tailgatingheader{
+	border-bottom:1px solid #707070;
+}*/
+div.contentcontainercentertailgatingheader{
+	width:100%;
+	background-color: #003459;
+	height:50px;
+}
+span.contentcontainercentertailgatingspan{
+	color: #FFFFFF;
+	padding-left: 16px;
+	line-height: 50px;
+	vertical-align: middle;
+}
+#tailgatingparagraph{
+	text-align: justify;
+	padding-left:16px;
+	padding-right:16px;
+	padding-bottom: 5px;
+}
+div.contentcontainercenterbirthday{
+	background-color:#e9ebee;
+	margin-right: 9px;
+	padding-top:0px;
+	/*border-top: 1px solid #424242;
+	border-left: 1px solid  #424242;
+	border-right: 1px solid  #424242;
+	border-bottom: 1px solid #424242;*/
+	border-radius:2px;
+	box-shadow: 0 0 4px #424242;
+	float:right;
+	width:47%;
+}
+/*p.birthdayheader{
+	border-bottom:1px solid #707070;
+}*/
+div.contentcontainercenterbirthdayheader{
+	width:100%;
+	background-color: #003459;
+	height:50px;
+}
+span.contentcontainercenterbirthdayspan{
+	color: #FFFFFF;
+	padding-left: 16px;
+	line-height: 50px;
+	vertical-align: middle;
+}
+#birthdayparagraph{
+	text-align: justify;
+	padding-left:16px;
+	padding-right:16px;
+	padding-bottom: 5px;
+}
+/*adsf*/
+div.contentcontainercenteraccessible{
+	background-color:#e9ebee;
+	height:241px;
+	margin-right: 20px;
+	padding-top:0px;
+	/*border-top: 1px solid #424242;
+	border-left: 1px solid  #424242;
+	border-right: 1px solid  #424242;
+	border-bottom: 1px solid #424242;*/
+	border-radius:2px;
+	box-shadow: 0 0 4px #424242;
+	float:right;
+	width: 30.333%;
+}
+/*p.birthdayheader{
+	border-bottom:1px solid #707070;
+}*/
+div.contentcontainercenteraccessibleheader{
+	width:100%;
+	background-color: #003459;
+	height:50px;
+}
+span.contentcontainercenteraccessiblespan{
+	color: #FFFFFF;
+	padding-left: 16px;
+	line-height: 50px;
+	vertical-align: middle;
+}
+#accessibleparagraph{
+	text-align: justify;
+	padding-left:16px;
+	padding-right:16px;
+	padding-bottom: 5px;
+}
+
+
+
+
+div.contentcontainerleft{
+	width:19.64%;
+	float:left;
+	margin-top: 0px;
+	padding-top:0px;
+}
+#the-sticky-div.sticky {
+	margin-top: 0px;
+	padding-top:0px;
+ }
+div.contentcontainerleftlist1{
+	/*background-color:#e9ebee;*/
+	margin-right:20px;
+	margin-top:0px;
+	margin-bottom:20px;
+	/*box-shadow: 0 0 4px #424242;
+	border-radius:2px;
+	position:absolute;*/
+
+	/*border-top: 1px solid #424242;
+	border-left: 1px solid  #424242;
+	border-right: 1px solid  #424242;
+	border-bottom: 1px solid #424242;*/
+
+	padding:0px;
+}
+div.fixedElement {
+    position:fixed;
+    top:100px;
+    z-index:100;
+	/*background-color:#e9ebee;
+	box-shadow: 0 0 4px #424242;
+	border-radius:2px;*/
+	width:200px;
+}
+div.ticketsaleslistheaderclass{
+	/*background-color: #971b2f;
+	border-bottom: 1px solid #003459;*/
+	color: #dde5ed;
+	font-weight: 700;
+	border-top-right-radius: 2px;
+	border-top-left-radius: 2px;
+	/*border-radius-top:5px;
+	border-radius-left:5px;*/
+}
+span.ticketsaleslistheader{
+	height:44px;
+	line-height:44px;
+	margin: 0px;
+	margin-left:12px;
+}
+img.ticketlogo{	
+	float: right;
+	padding-top: 10px;
+	padding-bottom:5px;
+	padding-right:8px;
+	max-height: 30px; /*logo 1*/
+	padding-top: 7px; /*logo 1*/
+	/*max-height: 25px; logo 2*/
+	/*padding-top: 10px; /*logo 2*/
+}
+a.ticketlinks{
+	color: #dde5ed;
+  	text-decoration: none;
+  	width:100%;
+}
+a.ticketlinks:hover{
+	color: yellow;
+}
+ul.ticketsaleslist{
+	list-style-type: none;
+	padding:0px;
+	margin:0px;
+}
+div.ticketlistitemdiv{
+  	padding-left:16px;
+}
+div.ticketlistiitemmage1{
+	float:left;
+	width:20%;
+}
+img.footballicon1{
+	max-width: 20px;
+	float:left;
+	padding-top: 10px;
+	padding-bottom:10px;
+}
+span.ticketlistitemparagraph{
+	float:right;
+	width:80%;
+	padding-top: 10px;
+	padding-bottom:10px;
+}
+li.ticksaleslistafter1{
+	height:40px;
+	font-size:13px;
+	width:100%;
+	display:block;
+}
+li.ticksaleslistafter{
+	height:40px;
+	font-size:13px;
+	width:100%;
+}
+p.test1{
+	vertical-align: text-bottom;
+}
+/*li.ticksaleslistafter1:before{
+	content:'';
+	display:block;
+	width:184.250px;
+	height:0px;
+	position:absolute;
+	border-top:1px solid #787878;
+}*/
+li.ticksaleslistafter:before{
+	/*content:'';
+	display:block;
+	width:200px;
+	height:0px;
+	position:absolute;
+	border-top:1px solid #787878;*/
+}
+div.fixedSpacer{
+	height:20px;
+	z-index: -1000;
+}
+div.contentcontainerleftadv{
+	/*background-color:#e9ebee;
+	border-top: 1px solid #DCDCDC;
+	border-left: 1px solid  #D3D3D3;
+	border-right: 1px solid  #D3D3D3;
+	border-bottom: 1px solid #C8C8C8;
+	/*border-radius:5px;
+	margin:10px;*/
+
+}
+/*END RIGHT*/
+
+
+img.articlepic1{
+	max-width:100%;
+}
+img.mcdadv{
+	width:200px;
+	box-shadow: 0 0 4px #424242;
+	border-radius:2px;
+	border-top: 1px solid #424242;
+	border-left: 1px solid  #424242;
+	border-right: 1px solid  #424242;
+	border-bottom: 1px solid #424242;
+}
+.fixedmcadv1{
+	margin-top:385px;
+}
+
+.sportspagelist{
+	list-style-type:none;
+}
+.redlist{
+	list-style-type:none;
+}
+div.footerpic{
+	margin-bottom:0;
+}
+button{
+	font-family: inherit;
+}

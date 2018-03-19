@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tickets | KU Athetics</title>
+<link rel="stylesheet" href="mockup1.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+	window.onload = function Pageload01() {
+			var img = document.getElementById("LocationArrow");
+	}
+	function HideShow1() {
+		var x = document.getElementById("locationparagraph");
+		var img = document.getElementById("LocationArrow");
+		if (x.style.display === "none") {
+			$("#locationparagraph").slideDown(285);
+			img.setAttribute("class", "rotated-image");
+		} else {
+			$("#locationparagraph").slideUp(285);
+			img.setAttribute("class", "rotated-image2");
+		}
+	}
+	function HideShow2() {
+		var x = document.getElementById("stubhubparagraph");
+		var img = document.getElementById("stubhubarrow");
+
+		if (x.style.display === "block") {
+			$("#stubhubparagraph").slideUp(285);
+			img.setAttribute("class", "rotated-image2");
+		} else {
+			$("#stubhubparagraph").slideDown(285);
+			img.setAttribute("class", "rotated-image");
+		}
+	}
+	function HideShow3() {
+		var x = document.getElementById("bagpolicyparagraph");
+		var img = document.getElementById("BagPolicyArrow");
+		if (x.style.display === "block") {
+			$("#bagpolicyparagraph").slideUp(285);
+			img.setAttribute("class", "rotated-image2");
+		} else {
+			$("#bagpolicyparagraph").slideDown(285);
+			img.setAttribute("class", "rotated-image");
+		}
+	}
+	function HideShow4() {
+		var x = document.getElementById("tailgatingparagraph");
+		var img = document.getElementById("TailgatingArrow");
+		if (x.style.display === "block") {
+			$("#tailgatingparagraph").slideUp(285);
+			img.setAttribute("class", "rotated-image2");
+		} else {
+			$("#tailgatingparagraph").slideDown(285);
+			img.setAttribute("class", "rotated-image");
+		}
+	}
+	function HideShow5() {
+		var x = document.getElementById("juniorjayhawksparagraph");
+		var img = document.getElementById("JuniorJayhawksArrow");
+		if (x.style.display === "block") {
+			$("#juniorjayhawksparagraph").slideUp(285);
+			img.setAttribute("class", "rotated-image2");
+		} else {
+			$("#juniorjayhawksparagraph").slideDown(285);
+			img.setAttribute("class", "rotated-image");
+		}
+	}
+	function HideShow6() {
+		var x = document.getElementById("birthdayparagraph");
+		var img = document.getElementById("JayhawkBirthdayArrow");
+		if (x.style.display === "block") {
+			$("#birthdayparagraph").slideUp(285);
+			img.setAttribute("class", "rotated-image2");
+		} else {
+			$("#birthdayparagraph").slideDown(285);
+			img.setAttribute("class", "rotated-image");
+		}
+	}
+	function HideShow7() {
+		var x = document.getElementById("accessibleparagraph");
+		var img = document.getElementById("AccessibleFanInformationArrow");
+		if (x.style.display === "block") {
+			$("#accessibleparagraph").slideUp(285);
+			img.setAttribute("class", "rotated-image2");
+		} else {
+			$("#accessibleparagraph").slideDown(285);
+			img.setAttribute("class", "rotated-image");
+		}
+	}
+	function NavBarShow1() {
+		var x = document.getElementById("topnavbarlistitemlistsportsid");
+			$("#topnavbarlistitemlistsportsid").slideDown(285);
+	}
+	function NavBarHide1() {
+		var x = document.getElementById("topnavbarlistitemlistsportsid");
+			$("#topnavbarlistitemlistsportsid").slideUp(285);
+	}
+	$(function() {
+		$( "li.topnavbarlistitem1" )
+			.mouseenter(function() {
+				$("#topnavbarlistitemlistsportsid").slideDown(285);
+		  	})
+		  	.mouseleave(function() {
+				$("#topnavbarlistitemlistsportsid").slideUp(285);
+		  	})
+  	});
+
+		$(window).scroll(function(e){ 
+  		var x = document.getElementById("fixedElementid");
+  		var img = document.getElementById("contentcontainerleftadvid");
+  		var spacer = document.getElementById("leftspacer");
+ 		if ($(this).scrollTop() > 72){ 
+    		x.setAttribute("class", "fixedElement");
+			$('.contentcontainerleftlist1').css({'margin-right': '0px', 'margin-bottom': '0px'});
+   	 		img.setAttribute("class", "fixedmcadv1");
+ 		}
+ 	 	if ($(this).scrollTop() < 72)
+ 	 	{
+   	 		x.setAttribute("class", "fixedElement2");
+   	 		$('.contentcontainerleftlist1').css({'margin-right': '20px', 'margin-bottom': '20px'});
+   	 		img.setAttribute("class", "fixedmcadv2");
+  		} 
+	}
+	);
+	</script>
+</head>
+
+<body>
+	<!--<div class="menupic">
+		<img src="images/menuandscoreboard1080p2.png" alt="MENU AND SCOREBOARD BROKEN LINK">
+	</div>-->
+	<div class="newnavbar">
+		<img src="images/kulogo1.0.png" class="topnavbarkulogo" alt="kulogobroke">		
+		<ul class="topnavbarlist">
+			<li class="topnavbarlistitem1" ><input class="topnavbarlistitembutton" type="button" value="Home"  class="topnavbarlistitemsportsbutton">
+				<div id="topnavbarlistitemlistsportsid">
+					<ul id="topnavbarlistitemlistsports">
+						<li id="test1">fffffffffffffhi</li>
+					</ul>
+				</div>
+			</li>
+			<li class="topnavbarlistitem2"><input class="topnavbarlistitembutton" type="button" value="Tickets" "  class="topnavbarlistitemsportsbutton">
+				<div id="topnavbarlistitemlistsportsid">
+					<ul id="topnavbarlistitemlistsports">
+						<li id="test1">fffffffffffffhi</li>
+					</ul>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="newnavbar2">
+		<!--<img src="images/kubackgroundlogo3.png" class="topnavbarkulogobackground" alt="kulogobroke">-->
+		<ul>
+			<li class="newnavbar2li1">hello</li>
+		</ul>
+	</div>
+
+	<img src="images/topadvertisement.png" class="advertisementpicimg" alt="ADVERTISEMENT BROKEN LINK">
+	<div class="contentcontainer">
+		<div class="contentcontainerrightpadding">
+			<div class="contentcontainerright">
+				<!--<div class="contentcontainerrightphone">
+					<div class="boxofficediv">
+						<span class="boxofficeheader">Box Office</span>
+					</div>
+					<ul class="boxofficelist">
+						<li>Phone: 785-864-3141</li>
+						<li>or 800-34-HAWKS (42957)</li>
+						<li>Fax: 785-864-7917</li>
+					</ul>
+				</div>-->
+				
+				
+				<!-- BEGGINNING SPORTING PAGES-->
+
+
+
+
+
+
+
+
+
+				<div class="contentcontainereventinformation">
+					<div class="eventinformationheaderclass">
+						<span class="eventinformationlistheader">Event Information</span>
+						<img src="" class="eventinformationlogo">
+					</div>
+					<ul class="eventinformationlist">
+						<li class="eventinformationlistafter1">
+							<div class="eventinformationlistitemdiv">
+								<a class="eventinformationlinks" href="http://kuathletics.com/sports/2016/7/14/kutickets-com-football.aspx">
+									<div class="eventinformationlistiitemmage1">
+										<img src="images/footballicon2.3.png" class="footballicon1" alt class="lazyload">
+									</div>
+									<div class="ticketlistitemtext1">
+										<span class="eventinformationlistitemparagraph">Football</span>
+									</div>
+								</a>
+							</div>
+						</li>
+						<li class="eventinformationlistafter">
+							<div class="eventinformationlistitemdiv">
+								<a class="eventinformationlinks" href="http://kuathletics.com/sports/2016/9/21/kutickets-com-mens-basketball.aspx">
+									<div class="eventinformationlistiitemmage1">
+										<img src="images/mensbbicon2.3.png" class="footballicon1" alt class="lazyload">
+									</div>
+									<div class="ticketlistitemtext1">
+										<span class="eventinformationlistitemparagraph">Men's Basketball</span>
+									</div>
+								</a>
+							</div>
+						</li>
+						<li class="eventinformationlistafter">
+							<div class="eventinformationlistitemdiv">
+								<a class="eventinformationlinks" href="http://kuathletics.com/sports/2016/9/15/kutickets-com-womens-basketball.aspx">
+									<div class="eventinformationlistiitemmage1">
+										<img src="images/womeonsbbicon2.3.png" class="footballicon1" alt class="lazyload">
+									</div>
+									<div class="ticketlistitemtext1">
+										<span class="eventinformationlistitemparagraph">Women's Basketball</span>
+									</div>
+								</a>
+							</div>
+						</li>
+						<li class="eventinformationlistafter">
+							<div class="eventinformationlistitemdiv">
+								<a class="eventinformationlinks" href="https://ev10.evenue.net/cgi-bin/ncommerce3/SEGetGroupList?groupCode=BSB&linkID=kansas&shopperContext=&caller=&appCode=">
+									<div class="eventinformationlistiitemmage1">
+										<img src="images/baseballicon2.3.png" class="footballicon1" alt class="lazyload">
+									</div>
+									<div class="ticketlistitemtext1">
+										<span class="eventinformationlistitemparagraph">Baseball</span>
+									</div>
+								</a>
+							</div>
+						</li>
+						<li class="eventinformationlistafter">
+							<div class="eventinformationlistitemdiv">
+								<a class="eventinformationlinks" href="https://ev10.evenue.net/cgi-bin/ncommerce3/SEGetGroupList?groupCode=SB&linkID=kansas&shopperContext=&caller=&appCode=">
+									<div class="eventinformationlistiitemmage1">
+										<img src="images/softballicon2.3.png" class="footballicon1" alt class="lazyload">
+									</div>
+									<div class="ticketlistitemtext1">
+										<span class="eventinformationlistitemparagraph">Softball</span>
+									</div>
+								</a>
+							</div>
+						</li>
+						<li class="eventinformationlistafter">
+							<div class="eventinformationlistitemdiv">
+								<a class="eventinformationlinks" href="https://ev10.evenue.net/cgi-bin/ncommerce3/SEGetEventList?groupCode=KR1&linkID=kansas&shopperContext=&caller=&appCode=">
+									<div class="eventinformationlistiitemmage1">
+										<img src="images/soccericon2.3.png" class="footballicon1" alt class="lazyload">
+									</div>
+									<div class="ticketlistitemtext1">
+										<span class="eventinformationlistitemparagraph">Soccer</span>
+									</div>
+								</a>
+							</div>
+						</li>
+						<li class="eventinformationlistafter">
+							<div class="eventinformationlistitemdiv">
+								<a class="eventinformationlinks" href="https://ev10.evenue.net/cgi-bin/ncommerce3/SEGetGroupList?groupCode=VB&linkID=kansas&shopperContext=&caller=&appCode=">
+									<div class="eventinformationlistiitemmage1">
+										<img src="images/volleyballicon2.3.png" class="footballicon1" alt class="lazyload">
+									</div>
+									<div class="ticketlistitemtext1">
+										<span class="eventinformationlistitemparagraph">Volleyball</span>
+									</div>
+								</a>
+							</div>
+						</li>
+						<li class="eventinformationlistafter">
+							<div class="eventinformationlistitemdiv">
+								<a class="eventinformationlinks" href="http://kuathletics.com/sports/2016/9/21/kutickets-com-mens-basketball.aspx">
+									<div class="eventinformationlistiitemmage1">
+										<img src="images/trackicon2.3.png" class="footballicon1" alt class="lazyload">
+									</div>
+									<div class="ticketlistitemtext1">
+										<span class="eventinformationlistitemparagraph">Track & Field</span>
+									</div>
+
+								</a>
+							</div>
+						</li>
+					</ul>  
+				</div>
+
+
+
+				<!-- CONVERSION MIDDLE -->
+				<div class="groupticketsdivouter">
+					<div class="groupticketsdiv">
+						<span class="groupticketsheader">Group Tickets</span>
+					</div>
+					<ul class="groupticketlist">
+						<li>Phone: 785-864-7755</li>
+						<li>Fax: 785-864-5517</li>
+					</ul>  
+				</div>
+
+
+
+
+
+				<div class="specialseatingdivouter">
+					<div class="specialseatingheaderdiv">
+						<span class="specialseatingheader">Special Seating</h3>
+					</div>
+					<ul class="specialseatinglist">
+						<li><a href="http://kuathletics.com/sports/2013/7/24/GEN_0724131930.aspx">Students</a></li> 
+						<li><a href="http://kuathletics.com/sports/2016/7/29/kutickets-com-group-tickets.aspx">Groups</a></li>
+						<li><a href="http://kuathletics.com/sports/2018/2/5/tickets-premium-seating-hospitality.aspx?id=2758">Junior Jayhawks</a></li>
+						<li><a href="http://kuathletics.com/sports/2013/6/21/GEN_0621132039.aspx">Premium Seating & Hospitality</a></li>
+					</ul>  
+				</div>
+			</div>
+		</div>
+		<div class="contentcontainercenterandleft">
+			<div class="contentcontainercenter">
+				<div class="contentcontainertopnav">
+					<ul class="contentcontainertopnavlist">
+						<li class="contentcontainertopnavlistitem"><a class="contentcontainertopnavlistlinks" href="http://kuathletics.com/sports/2016/7/14/kutickets-com-ticket-information.aspx"><span class="contentcontainertopnavlistspan">Home</span></a></li>
+						<li class="contentcontainertopnavlistitem"><a class="contentcontainertopnavlistlinks" href="http://kuathletics.com/sports/2013/7/24/GEN_0724131930.aspx"><span class="contentcontainertopnavlistspan">Student Tickets</span></a></li>
+						<li class="contentcontainertopnavlistitem"><a class="contentcontainertopnavlistlinks" href="https://ev10.evenue.net/cgi-bin/ncommerce3/EVExecMacro?linkID=kansas&evm=prmo&RSRC=&RDAT=&caller=PR"><span class="contentcontainertopnavlistspan">Enter Promo Code</span></a></li>
+						<li class="contentcontainertopnavlistitem"><a class="contentcontainertopnavlistlinks" href="http://kuathletics.com/sports/2013/6/27/GEN_0627130716.aspx?id=188"><span class="contentcontainertopnavlistspan">Promotions</span></a></li>
+						<li class="contentcontainertopnavlistitem"><a class="contentcontainertopnavlistlinks" href="http://williamsfund.com/"><span class="contentcontainertopnavlistspan">Williams Fund</span></a></li>
+						<li class="contentcontainertopnavlistitem"><a class="contentcontainertopnavlistlinks" href="https://www.stubhub.com/kansas-jayhawks-tickets/grouping/227490/?gcid=C12289p011-tixdrop"><span class="contentcontainertopnavlistspan">StubHub</span></a></li>
+						<li class="contentcontainertopnavlistitem"><a class="contentcontainertopnavlistlinks" href="http://kuathletics.com/sports/2017/9/12/kutickets-com-contact-us.aspx"><span class="contentcontainertopnavlistspan">Contact Us</span></a></li>
+
+					</ul>
+				</div>
+				<div class="contentcontainercenterarticle">
+					<img src="images/footballmainimage.jpg" class="articlepic1" alt="ARTICLE BROKEN LINK">
+				</div>
+				<!-- location stuff -->
+				<div class="contentcontainercenterrow2">
+					<div class="contentcontainercenterlocation">
+						<!--<p class="locationheader"><strong>Location/Contact Information</strong><br></p>-->
+						<div class=contentcontainercenterlocationheader>
+							<span class="contentcontainercenterlocationspan">Location/Contact Information</span>
+						</div>
+						<div class="locationcontent">
+							<div id="locationparagraph">
+								<p class="locationparagraphp">If you have any questions related to tickets or our ticketing services contact us using our online form, visit the box office at the southeast corner of Allen Fieldhouse, or call using one of the numbers below.<br>
+									<br>
+									<div class="locationparagraphp2">
+										<a href="http://maps.google.com/maps?q=1651+Naismith+Drive,+Lawrence,+KS+66045">Ticket Office<br>
+										1651 Naismith Drive<br>
+										Lawrence, KS 66045</a><br>
+										<br>
+										Monday - Friday 9:00 a.m. - 5:00 p.m.<br>
+										<br>
+										<strong>Box Office</strong><br>
+										phone | 785-864-3141 or 800-34-HAWKS (42957)<br>
+										fax | 785-864-7917
+									</div>
+								</p>
+							</div>
+							<img class="locationgooglemaps" src="images/googlemaps.jpg">
+						</div>
+					</div>
+					<div class="contentcontainercenterpremium">
+						<div class=contentcontainercenterpremiumheader>
+							<span class="contentcontainercenterpremiumspan">Premium Seating</span>
+						</div>
+							<!--<img src="images/downarrow3.png" id="premiumarrow">-->
+						<div class="contentcontainercenterpremiumparagraph">
+							<p>
+								Hospitality Suites & Premium Seating options offered with a variety of ammendities including climate-contolled viewing, catered buffets, all-inclusive beer and wine, private parking, HD teliviosions, field & elevated viewing areas, and much much more!
+								<br>
+								<br>
+								More information on <a href="">Premium Seating & Hospitality</a>
+								<br>
+								<br>
+								Or call 785-864-7757
+							</p>
+						</div>
+					</div>
+				</div>
+				<div  class="contentcontainercenterrow3">
+					<div class="contentcontainercenterbagpolicy">
+						<div class=contentcontainercenterbagpolicyheader>
+							<span class="contentcontainercenterbagpolicyspan">Bag Policy</span>
+						</div>
+						<div id="bagpolicyparagraph">
+							<!--<p class="bagpolicyheader"><strong>Bag</strong><strong> Policy</strong><br></p>-->
+							<p>Beginning in August 2017, fans will be allowed to bring only one clear plastic bag no larger than 12 inches by 6 inches by 12 inches or a one-gallon,
+							clear, resealable plastic storage bag per person inside Kansas athletics events.</br></br>
+							Fans will also be allowed a small clutch purse not to exceed 5.5 inches by 8.5 inches</br></br>
+							<a href="http://kuathletics.com/news/2017/8/11/soccer-clear-bag-policy-in-effect-at-rock-chalk-park-starting-saturday.aspx">More on new bag policy</a></p>
+						</div>
+					</div>
+				</div>
+			<!-- location stuff -->
+				<div  class="contentcontainercenterrow4">
+					<div class="contentcontainercenterstubhub">
+						<div class=contentcontainercenterstubhubheader>
+							<span class="contentcontainercenterstubhubspan">Stub Hub</span>
+						</div>
+						<div id="stubhubparagraph">
+							<p>The Kansas Athletics secondary ticket market is now located on <a href="/sports/2013/8/5/GEN_0805133340.aspx?id=279">
+							StubHub -- the Official Fan to Fan Ticket Marketplace of the Kansas Jayhawks</a>. This exciting new partnership with StubHub!
+							allows you more freedom in pricing, number of postings, and allows you to reach a broader audience than ever before!</p>
+						</div>
+					</div>
+					<div class="contentcontainercenterjuniorjayhawks">
+						<div class=contentcontainercenterjuniorjayhawksheader>
+							<span class="contentcontainercenterjuniorjayhawksspan">Junior Jayhawks</span>
+						</div>
+						<div id="juniorjayhawksparagraph">
+							<!--<p class="juniorjayhawksheader"><strong>Junior</strong><strong> Jayhawks</strong><br></p>-->
+							<p>Junior Jayhawks, the Official Kids Club for Kansas Athletics, is available to children 13 and under. Memberships last through the 
+							academic year and include a number of great benefits and exclusive access to Kansas Athletics and free admission soccer, volleyball, 
+							women's basketball, softball and baseball in addition to select football and men's basketball games.   
+							<a href="http://kuathletics.com/sports/2013/6/21/GEN_0621132039.aspx?id=18">Register today.</a></p>
+						</div>
+					</div>
+				</div>
+				<div  class="contentcontainercenterrow5">
+					<div class="contentcontainercenterrow5leftandcenter">
+						<div class="contentcontainercentertailgating">
+							<div class=contentcontainercentertailgatingheader>
+								<span class="contentcontainercentertailgatingspan">Tailgating/Parking</span>
+							</div>
+							<div id="tailgatingparagraph">
+								<!--<p class="tailgatingheader"><strong>Tailgating/Parking</strong><br></p>-->
+								<p>Tailgating at Memorial Stadium is a favorite fall tradition. View the <a href="http://kuathletics.com/documents/2016/8/1//2016_memorial_tailgating_map_updated.pdf?id=4845">Kansas Football Gameday Tailgating Map (PDF).</a> 
+								or visit <a href="http://parking.ku.edu/events#football">KU Parking Services Gameday page</a> for more info.</p>
+							</div>
+						</div>
+						
+						<div class="contentcontainercenterbirthday">
+							<div class=contentcontainercenterbirthdayheader>
+								<span class="contentcontainercenterbirthdayspan">Jayhawk Birthday Program</span>
+							</div>
+							<div id="birthdayparagraph">
+								<!--<p class="birthdayheader"><strong>Jayhawk</strong><strong> Birthday</strong><strong> Program</strong><br></p>-->
+								<p>Young fans of Kansas Athletics can celebrate their birthday with parties at Kansas football, soccer, women's basketball, baseball and softball games. 
+								For more information or to book your party, visit the  
+								<a href="http://kuathletics.com/sports/2013/6/20/GEN_0620134745.aspx?id=3">Birthday Program page.</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="contentcontainercenteraccessible">
+						<div class=contentcontainercenteraccessibleheader>
+							<span class="contentcontainercenteraccessiblespan">Accessible Fan Information</span>
+						</div>
+						<div id="accessibleparagraph">
+							<p>Ticket availability, contact details and <a href="/sports/2013/6/20/GEN_0620133108.aspx?id=2">gameday information</a> for disabled supporters.<br></p>
+						</div>	
+					</div>
+				</div>
+				<p class="endp"></p>
+			</div>
+			<div class="contentcontainerleft">
+				<div id="fixedElementid">		
+					<div class="contentcontainerleftlist1">			
+						<div class="ticketsaleslistheaderclass">
+							<span class="ticketsaleslistheader">Ticket Sales</span>
+							<img src="images/kulogo1.png" class="ticketlogo">
+						</div>
+							<ul class="ticketsaleslist">
+								<li class="ticksaleslistafter1">
+									<div class="ticketlistitemdiv">
+										<a class="ticketlinks" href="https://ev10.evenue.net/cgi-bin/ncommerce3/SEGetGroupList?groupCode=FB&linkID=kansas&shopperContext=&caller=&appCode=">
+											<div class="ticketlistiitemmage1">
+												<img src="images/footballicon2.3.png" class="footballicon1" alt class="lazyload">
+											</div>
+											<div class="ticketlistitemtext1">
+												<span class="ticketlistitemparagraph">Football</span>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li class="ticksaleslistafter">
+									<div class="ticketlistitemdiv">
+										<a class="ticketlinks" href="https://ev10.evenue.net/cgi-bin/ncommerce3/SEGetGroupList?groupCode=MBB&linkID=kansas&shopperContext=&caller=&appCode=">
+											<div class="ticketlistiitemmage1">
+												<img src="images/mensbbicon2.3.png" class="footballicon1" alt class="lazyload">
+											</div>
+											<div class="ticketlistitemtext1">
+												<span class="ticketlistitemparagraph">Men's Basketball</span>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li class="ticksaleslistafter">
+									<div class="ticketlistitemdiv">
+										<a class="ticketlinks" href="https://ev10.evenue.net/cgi-bin/ncommerce3/SEGetGroupList?groupCode=WBB&linkID=kansas&shopperContext=&caller=&appCode=">
+											<div class="ticketlistiitemmage1">
+												<img src="images/womeonsbbicon2.3.png" class="footballicon1" alt class="lazyload">
+											</div>
+											<div class="ticketlistitemtext1">
+												<span class="ticketlistitemparagraph">Women's Basketball</span>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li class="ticksaleslistafter">
+									<div class="ticketlistitemdiv">
+										<a class="ticketlinks" href="https://ev10.evenue.net/cgi-bin/ncommerce3/SEGetGroupList?groupCode=BSB&linkID=kansas&shopperContext=&caller=&appCode=">
+											<div class="ticketlistiitemmage1">
+												<img src="images/baseballicon2.3.png" class="footballicon1" alt class="lazyload">
+											</div>
+											<div class="ticketlistitemtext1">
+												<span class="ticketlistitemparagraph">Baseball</span>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li class="ticksaleslistafter">
+									<div class="ticketlistitemdiv">
+										<a class="ticketlinks" href="https://ev10.evenue.net/cgi-bin/ncommerce3/SEGetGroupList?groupCode=SB&linkID=kansas&shopperContext=&caller=&appCode=">
+											<div class="ticketlistiitemmage1">
+												<img src="images/softballicon2.3.png" class="footballicon1" alt class="lazyload">
+											</div>
+											<div class="ticketlistitemtext1">
+												<span class="ticketlistitemparagraph">Softball</span>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li class="ticksaleslistafter">
+									<div class="ticketlistitemdiv">
+										<a class="ticketlinks" href="https://ev10.evenue.net/cgi-bin/ncommerce3/SEGetEventList?groupCode=KR1&linkID=kansas&shopperContext=&caller=&appCode=">
+											<div class="ticketlistiitemmage1">
+												<img src="images/soccericon2.3.png" class="footballicon1" alt class="lazyload">
+											</div>
+											<div class="ticketlistitemtext1">
+												<span class="ticketlistitemparagraph">Soccer</span>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li class="ticksaleslistafter">
+									<div class="ticketlistitemdiv">
+										<a class="ticketlinks" href="https://ev10.evenue.net/cgi-bin/ncommerce3/SEGetGroupList?groupCode=VB&linkID=kansas&shopperContext=&caller=&appCode=">
+											<div class="ticketlistiitemmage1">
+												<img src="images/volleyballicon2.3.png" class="footballicon1" alt class="lazyload">
+											</div>
+											<div class="ticketlistitemtext1">
+												<span class="ticketlistitemparagraph">Volleyball</span>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li class="ticksaleslistafter">
+									<div class="ticketlistitemdiv">
+										<a class="ticketlinks" href="http://kuathletics.com/sports/2016/9/21/kutickets-com-mens-basketball.aspx">
+											<div class="ticketlistiitemmage1">
+												<img src="images/trackicon2.3.png" class="footballicon1" alt class="lazyload">
+											</div>
+											<div class="ticketlistitemtext1">
+												<span class="ticketlistitemparagraph">Track & Field</span>
+											</div>
+
+										</a>
+									</div>
+								</li>
+							</ul>  
+					</div>
+				</div>
+				<div id="contentcontainerleftadvid">
+					<div class="contentcontainerleftadv">
+						<!--<img src="images/mcdadv.jpg" class="mcdadv" alt="ARTICLE BROKEN LINK">-->
+					</div>
+				</div>				
+	</div>
+</div>
+
+	
+</div>
+	<img src="images/botadvertisement.jpg" class="advertisementpicimgbot" alt="ADVERTISEMENT BROKEN LINK">
+	<div class="footerpic">
+		<img src="images/bottom.png" alt="BOTTOM PICTURE BROKEN">
+	</div>
+
+</body>
+
+</html>
